@@ -1,4 +1,4 @@
-const { readEnv } = require('../DATABASE/database');
+const { readEnv } = require('../lib/database');
 const { cmd } = require('../command');
 const os = require("os");
 const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, Func, fetchJson } = require('../DATABASE/functions');
