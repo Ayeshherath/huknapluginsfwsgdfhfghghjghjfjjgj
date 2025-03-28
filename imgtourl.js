@@ -24,7 +24,7 @@ try{
  // if (!args[0]) throw ` \`\`\`[ 🌺 ] Ingresa un texto para guardar la imagen. Ejemplo:\n${usedPrefix + command} Sylph\`\`\``
 
   let media = await q.download();
-  let tempFilePath = path.join(os.tmpdir(), 'SulaMd');
+  let tempFilePath = path.join(os.tmpdir(), '1234');
   fs.writeFileSync(tempFilePath, media);
 
   let form = new FormData();
@@ -41,7 +41,7 @@ try{
     let link = response.data.data.url;
     fs.unlinkSync(tempFilePath);
 
-    m.reply(`𝐒𝐔𝐋𝐀-𝐌𝐃 𝙄𝙈𝙂 𝙏𝙊 𝙐𝙍𝙇\n\n*File Size* ${media.length} *Byte(s)*\n\n*IMG URL* ${link}\n\n> CYBER-MD 😈`);
+    m.reply(`*IMG URL* ${link}\n\n> 𝙼𝙰𝙽𝙰𝙶𝙴𝚁   𝙱𝙾𝚃™`);
     
 } catch (e) {
 reply(`${e}`)
