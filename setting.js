@@ -72,7 +72,7 @@ async (conn, mek, m, { from, isOwner, quoted, reply }) => {
 
 > 𝙼𝙰𝙽𝙰𝙶𝙴𝚁   𝙱𝙾𝚃™`;
 
-        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/TB140kXn/SulaMd.png"}, caption: desc }, { quoted: mek });
+        const vv = await conn.sendMessage(from, { image: { url: "https://i.ibb.co/Y4gSh6VL/5486.jpg"}, caption: desc }, { quoted: mek });
 
         conn.ev.on('messages.upsert', async (msgUpdate) => {
             const msg = msgUpdate.messages[0];
